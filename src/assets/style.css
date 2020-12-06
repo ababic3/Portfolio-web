@@ -1,0 +1,92 @@
+
+#main {
+  position: absolute;
+  width: 100%;
+}
+.day {
+  background: linear-gradient(to bottom left, #f5e980, #ffffff);
+}
+.night {
+  background: linear-gradient(to bottom left, #2d3670, #3d3d3d);
+  color: white;
+}
+.container {
+  max-width: 400px;
+  min-width: 360px;
+}
+.title {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.title2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.form-rounded {
+  border-radius: 512px;
+}
+.back-card {
+  border-radius: 40px !important;
+  color: white;
+  background: linear-gradient(to bottom right, #3d3d3d, #1e1f1f);
+  
+}
+.city-name {
+  position: absolute;
+  width: 100%;
+}
+
+.city-name p {
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.city-name span {
+  position: relative;
+  top: -50px;
+  font-size: 40pt;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.temp span {
+  font-weight: 100;
+  font-size: 80px;
+  letter-spacing: -5px;
+  white-space: nowrap;
+}
+.card-mid {
+  line-height: 0.5;
+}
+.condition {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+
+.high {
+  font-size: 15px;
+}
+
+.low {
+  font-size: 15px;
+}
+
+.card-bottom p {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: -3px;
+}
+.card-bottom {
+  line-height: 0.5;
+}
+
+.card-bottom span {
+  font-size: 12px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
