@@ -108,9 +108,9 @@ export default {
       console.log(this.citySearch);
       
       const key = "5299e83c9cf2fef510fb8ddaa3206ac8";
-      const baseURL = `http://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${key}&units=metric`;
+      const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${key}&units=metric`;
      
-      const weatherIcon = 'http://openweathermap.org/img/wn/';
+      const weatherIcon = 'https://openweathermap.org/img/wn/';
       const weatherIconExstension = '@2x.png';
      
       //fetch weather
