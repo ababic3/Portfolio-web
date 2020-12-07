@@ -83,7 +83,7 @@ export default {
   data() {
     return {
       cityFound: false,
-     
+      VUE_APP_API_KEY:process.env.VUE_APP_API_KEY,
       isDay: true,
       citySearch: "",
       weather: {
@@ -98,8 +98,8 @@ export default {
         humidity: "55",
       },
 
-      mounted() {
-      console.log(process.env.API_KEY)}
+     // mounted() {
+     // console.log(process.env)}
     };
     
   },
@@ -107,8 +107,9 @@ export default {
     getWeather: async function () {
       console.log(this.citySearch);
       
-      const key = "5299e83c9cf2fef510fb8ddaa3206ac8";
-      const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${key}&units=metric`;
+      //const APP_KEY = process.env.VUE_APP_API_KEY;
+      const APP_KEY = "5299e83c9cf2fef510fb8ddaa3206ac8";
+      const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${APP_KEY}&units=metric`;
      
       const weatherIcon = 'https://openweathermap.org/img/wn/';
       const weatherIconExstension = '@2x.png';
@@ -158,6 +159,6 @@ export default {
 
 <style scoped>
 @import "./assets/style.css";
-
  
+
 </style>
