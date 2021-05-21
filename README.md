@@ -1,4 +1,4 @@
-# Live Demo of website on Netlify
+# Live Demo of Website on Netlify
 https://dreamy-tesla-0e165d.netlify.app/
 
 
